@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multistep-form</title>
+    <link rel="stylesheet" href="/Web-Dev Starter Lessons/stylesheet/multistep-form.css">
+    <script defer src="/Web-Dev Starter Lessons/Scripts/Script/multiform.js"></script>
+</head>
+<body>
+   <div class="container">
+    <form id="form1">
+        <h1>Registration Form</h1>
+        <input type="Email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+
+        <div class="btn_box"></div>
+        <button id="next1" type="button" >next</button>
+    
+    </form>
+
+    <form id="form2">
+        <h2>Personal Info</h2>
+        <input type="text" placeholder="Firstname">
+        <input type="text" placeholder="Lastname">
+        <input type="number" placeholder="PhoneNumber">
+
+        <div class="btn_box"></div>
+        <button id="back1" type="button">back</button>
+        <button id="next2" type="button">next</button>
+    
+    </form>
+
+    <form id="form3">
+        <h3>Social Links</h3>
+        <input type="text" placeholder="Facebook">
+        <input type="text" placeholder="Twitter">
+        <input type="text" placeholder="Tiktok">
+
+        <div class="btn_box"></div>
+        <button id="back2" type="button">back</button>
+        <button id="submit" type="button">submit</button>
+    </form>
+
+    <div class="progress_container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+    </div>
+   </div> 
+</body>
+</html>

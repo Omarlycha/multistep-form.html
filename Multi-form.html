@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Stepform</title>
+    <link rel="stylesheet" href="/Web-Dev Starter Lessons/stylesheet/Multi-form.css">
+</head>
+<body>
+    <h1>Multi-Stepform</h1>
+
+    <div>
+        <h2>Step 1</h2>  
+        <label for="Name">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" required>
+        <button type="button">Next</button>
+    </div>
+
+    <div>
+        <h3>Step 2</h3>  
+        <label for="Name">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" required>
+        <button type="button">Next</button>
+    </div>
+
+    <div>
+        <h4>Step 3</h4>  
+        <label for="Name">Username:</label><br>
+        <input type="text" id="Username" name="Username" required>
+        <button type="button">Next</button>
+    </div>
+
+    <div>
+        <h5>Step 4</h5>  
+        <label for="Email">Email Add:</label><br>
+        <input type="email" id="email" name="email" required>
+        <button type="button">Previous</button>
+        <button type="button">Next</button>
+    </div>
+
+    <div>
+        <h6>Step 5</h6> 
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+        <option value="Nigeria">Nigeria</option> 
+        <option value="Canada">Canada</option>
+        <option value="United kingdom">United kingdom</option>
+        <option value="USA">USA</option>
+        <option value="United Arab Emirates">United Arab Emirates</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Venezuela">Venezuela</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Ecuador">Ecuador</option>
+        </select><br><br>
+    </div><br>
+
+    <div>  
+        <label for="message">Any Other Comment:</label><br>
+        <textarea id="message" name="message"></textarea>
+        <button type="button">Comments</button>
+    </div><br>
+
+    <div>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label><br><br>
+    </div><br>
+    
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
